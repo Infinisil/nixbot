@@ -28,7 +28,6 @@ import           Control.Concurrent.STM
 import           Control.Concurrent.STM.TMQueue
 import           Control.Monad.Reader
 import           Data.Aeson
-import           Data.Monoid                    ((<>))
 import qualified Data.Set                       as Set
 import           Frontend.AMQP
 import           Frontend.Types

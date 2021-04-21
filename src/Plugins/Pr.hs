@@ -15,7 +15,6 @@ import           Data.Text            (Text)
 import qualified Data.Text            as Text
 import           Data.Time
 import           GitHub               hiding (Owner, Repo)
-import           GitHub.Data.Id
 import           GitHub.Data.Name
 import           Log
 import           Text.Regex.TDFA
@@ -59,7 +58,7 @@ fetchInfo Settings { defOwner, defRepo } (ParsedIssue parseType owner repo numbe
   where
     owner' = N owner
     repo' = N repo
-    number' = Id number
+    number' = IssueNumber number
 
 type Owner = Text
 type Repo = Text

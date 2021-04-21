@@ -12,7 +12,6 @@ import           Data.Char                      (isSpace)
 import           Data.Functor                   (void, ($>))
 import           Data.List
 import           Data.Maybe
-import           Data.Monoid                    ((<>))
 import           Data.Text                      (Text)
 import qualified Data.Text                      as Text
 import           Data.Void
